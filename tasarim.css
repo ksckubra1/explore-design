@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    
+
+    
+}
+.sablon{
+    width: 100%;
+    height: 70%;
+    max-width: 700px;
+    background-color: rgba(255, 255, 255, 0.356);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    border-top: 1px  solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);    
+    padding: 40px;
+    overflow: hidden;
+
+}
+.title{
+    position: absolute;
+    top: 40px;
+    font-size: 65px;
+    font-weight: 900;
+    color: rgba(29, 29, 29, .85);
+    text-shadow: -3px -3px 10px rgba(255, 255, 255, 0.5), 10px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.heykel{
+    background-image: url(statue.png);
+    height: 100%;
+    width: 50%;
+    background-size: cover;
+    position: absolute;
+    right: -100px;
+
+    
+}
+.slogan{
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px;
+    opacity: .83;
+    top: 200px;
+    line-height: 45px;
+    color: rgba(54, 49, 12, 0.8);
+    text-shadow: -3px -3px 20px rgba(255, 255, 255, 0.5), 10px 3px 8px rgba(0, 0, 0, 0.5);
+
+}
+.not{
+    font-size: 40px;
+    font-weight: 100;
+    position: absolute;
+    bottom: 40px;
+    opacity: .5;
+
+}
